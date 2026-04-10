@@ -19,7 +19,7 @@ export default function TaskItem({ tarea, onToggle, onEliminar }) {
         )}
       </div>
 
-      {/* Botón toggle */}
+      {/* Botón que cambia estado */}
       <button
         className="btn btn-toggle"
         onClick={() => onToggle(tarea.id)}
@@ -27,7 +27,7 @@ export default function TaskItem({ tarea, onToggle, onEliminar }) {
         {tarea.completada ? "Tarea Completada" : "Completar"}
       </button>
 
-      {/* Botón eliminar */}
+      {/* Botón de eliminar */}
       <button
         className="btn btn-delete"
         onClick={() => onEliminar(tarea.id)}

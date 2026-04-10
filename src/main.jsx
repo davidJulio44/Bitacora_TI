@@ -2,10 +2,10 @@ import React from "react";
 // React base
 
 import ReactDOM from "react-dom/client";
-// Permite renderizar la app en el DOM
+// Permite renderizar la app
 
 import App from "./ui/pages/App";
-// Se importa la componente principal
+// Se importa el componente principal
 
 import "./index.css"; 
 // Se importan los estilos globales

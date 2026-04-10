@@ -1,3 +1,6 @@
+// Componente principal de la aplicación, muestra la lista de tareas y formulario para agregar nuevas tareas
+//Importa el hook para gestionar las tareas y los componentes para el formulario y la lista de tareas
+
 import { useTasks } from "../hooks/useTasks";
 import TaskForm from "../components/TaskForm";
 import TaskList from "../components/TaskList";
